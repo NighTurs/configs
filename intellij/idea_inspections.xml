@@ -147,6 +147,17 @@
   <inspection_tool class="NonProtectedConstructorInAbstractClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreNonPublicClasses" value="false" />
   </inspection_tool>
+  <inspection_tool class="NonSerializableFieldInSerializableClass" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignorableAnnotations">
+      <value />
+    </option>
+    <option name="ignoreAnonymousInnerClasses" value="false" />
+    <option name="superClassString" value="" />
+  </inspection_tool>
+  <inspection_tool class="NonSerializableObjectBoundToHttpSession" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonSerializableObjectPassedToObjectStream" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonSerializableWithSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonSerializableWithSerializationMethods" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="NonStaticFinalLogger" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="loggerClassName" value="" />
   </inspection_tool>
@@ -184,11 +195,18 @@
   </inspection_tool>
   <inspection_tool class="RandomDoubleForRandomInteger" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RawUseOfParameterizedType" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReadObjectAndWriteObjectPrivate" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RedundantImplements" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreSerializable" value="false" />
     <option name="ignoreCloneable" value="false" />
   </inspection_tool>
   <inspection_tool class="RedundantThrowsDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreAnonymousInnerClasses" value="false" />
+    <option name="superClassString" value="" />
+  </inspection_tool>
+  <inspection_tool class="SerializableWithUnconstructableAncestor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SimplifiableJUnitAssertion" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -229,6 +247,7 @@
     <option name="ignoreRethrownExceptions" value="true" />
   </inspection_tool>
   <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TransientFieldInNonSerializableClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TrivialStringConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TypeParameterExtendsFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnaryPlus" enabled="true" level="WARNING" enabled_by_default="true" />
