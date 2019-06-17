@@ -73,3 +73,5 @@ f() {
        exit
     fi
 }
+alias ml="source /home/nighturs/.local/share/virtualenvs/ml/bin/activate"
+function npm-do { (PATH=$(npm bin):$PATH; eval $@;) }
